@@ -1,8 +1,34 @@
-ver: 1.41, ke_cnt_lmt: 150, mme_cnt_lmt: 100, mduce_cnt_lmt: 75, pme_cnt_lmt: 25, pduce_cnt_lmt: 25, tme_cnt_lmt: 25, tduce_cnt_lmt: 25, doe_cnt_lmt: 10, dme_cnt_lmt: 10, vc_cnt_lmt: 100, doa_throttle: 0, dma_throttle: 0, session_id: 'default_session', js_post: !1, loc: '', cf_url: ('https:' === document['location']['protocol'] ? 'https://' : 'http://') + 'apid.cformanalytics.com/api/v1/attempt', auth: '', api_public_key: null, aj_lmt_doact: 1, aj_lmt_dmact: 1, aj_lmt_tact: 1, ce_js_post: 0, init_time: 0, informinfo: '', prevfid: -1, fidcnt: 0, sensor_data: 0, ins: null, cns: null, enGetLoc: 0, enReadDocUrl: 0, disFpCalOnTimeout: 0, xagg: -1, pen: -1, brow: '', browver: '', psub: '-', lang: '-', prod: '-', plen: -1, doadma_en: 0, sdfn: [], d2: 0, d3: 0, thr: 0, cs: '0a46G5m17Vrp4o4c', hn: 'unk', z1: 0, o9: 0, vc: '', y1: 2016, ta: 0, tst: -1, t_tst: 0, ckie: '_abck', n_ck: '0', ckurl: 0, bm: !1, mr: '-1', altFonts: !1, rst: !1, runFonts: !0, fsp: !1, mn_mc_lmt: 10, mn_state: 0, mn_mc_indx: 0, mn_sen: 0, mn_tout: 100, mn_stout: 1e3, mn_cc: '', mn_cd: 1e4, mn_lc: '', mn_ld: 1e4, mn_al: [], mn_il: [], mn_tcl: [], mn_r: '', mn_abck: '', mn_psn: '', mn_ts: '', mn_lg: [], ir: function() {
-	bmak['start_ts'] = Date['now'] ? Date['now']() : +new Date, bmak['kact'] = '', bmak['ke_cnt'] = 0, bmak['ke_vel'] = 0, bmak['mact'] = '', bmak['mme_cnt'] = 0, bmak['mduce_cnt'] = 0, bmak['me_vel'] = 0, bmak['pact'] = '', bmak['pme_cnt'] = 0, bmak['pduce_cnt'] = 0, bmak['pe_vel'] = 0, bmak['tact'] = '', bmak['tme_cnt'] = 0, bmak['tduce_cnt'] = 0, bmak['te_vel'] = 0, bmak['doact'] = '', bmak['doe_cnt'] = 0, bmak['doe_vel'] = 0, bmak['dmact'] = '', bmak['dme_cnt'] = 0, bmak['dme_vel'] = 0, bmak['vcact'] = '', bmak['vc_cnt'] = 0, bmak['aj_indx'] = 0, bmak['aj_ss'] = 0, bmak['aj_type'] = -1, bmak['aj_indx_doact'] = 0, bmak['aj_indx_dmact'] = 0, bmak['aj_indx_tact'] = 0, bmak['me_cnt'] = 0, bmak['pe_cnt'] = 0, bmak['te_cnt'] = 0
-}, get_cf_date: function() {
+ver: 1.41, ke_cnt_lmt: 150, mme_cnt_lmt: 100, mduce_cnt_lmt: 75, pme_cnt_lmt: 25, pduce_cnt_lmt: 25, tme_cnt_lmt: 25, tduce_cnt_lmt: 25, doe_cnt_lmt: 10, dme_cnt_lmt: 10, vc_cnt_lmt: 100, doa_throttle: 0, dma_throttle: 0, session_id: 'default_session', js_post: !1, loc: '', cf_url: ('https:' === document['location']['protocol'] ? 'https://' : 'http://') + 'apid.cformanalytics.com/api/v1/attempt', auth: '', api_public_key: null, aj_lmt_doact: 1, aj_lmt_dmact: 1, aj_lmt_tact: 1, ce_js_post: 0, init_time: 0, informinfo: '', prevfid: -1, fidcnt: 0, sensor_data: 0, ins: null, cns: null, enGetLoc: 0, enReadDocUrl: 0, disFpCalOnTimeout: 0, xagg: -1, pen: -1, brow: '', browver: '', psub: '-', lang: '-', prod: '-', plen: -1, doadma_en: 0, sdfn: [], d2: 0, d3: 0, thr: 0, cs: '0a46G5m17Vrp4o4c', hn: 'unk', z1: 0, o9: 0, vc: '', y1: 2016, ta: 0, tst: -1, t_tst: 0, ckie: '_abck', n_ck: '0', ckurl: 0, bm: !1, mr: '-1', altFonts: !1, rst: !1, runFonts: !0, fsp: !1, mn_mc_lmt: 10, mn_state: 0, mn_mc_indx: 0, mn_sen: 0, mn_tout: 100, mn_stout: 1e3, mn_cc: '', mn_cd: 1e4, mn_lc: '', mn_ld: 1e4, mn_al: [], mn_il: [], mn_tcl: [], mn_r: '', mn_abck: '', mn_psn: '', mn_ts: '', mn_lg: [],
+ir: function() {
+bmak['start_ts'] = Date['now'] ? Date['now']() : + new Date,
+bmak['kact'] = '',
+bmak['ke_cnt'] = 0,
+bmak['ke_vel'] = 0,
+bmak['mact'] = '',
+bmak['mme_cnt'] = 0,
+bmak['mduce_cnt'] = 0,
+bmak['me_vel'] = 0,
+bmak['pact'] = '',
+bmak['pme_cnt'] = 0,
+bmak['pduce_cnt'] = 0,
+bmak['pe_vel'] = 0,
+bmak['tact'] = '',
+bmak['tme_cnt'] = 0,
+bmak['tduce_cnt'] = 0,
+bmak['te_vel'] = 0,
+bmak['doact'] = '',
+bmak['doe_cnt'] = 0,
+bmak['doe_vel'] = 0,
+bmak['dmact'] = '',
+bmak['dme_cnt'] = 0,
+bmak['dme_vel'] = 0,
+bmak['vcact'] = '',
+bmak['vc_cnt'] = 0, bmak['aj_indx'] = 0, bmak['aj_ss'] = 0, bmak['aj_type'] = -1, bmak['aj_indx_doact'] = 0, bmak['aj_indx_dmact'] = 0, bmak['aj_indx_tact'] = 0, bmak['me_cnt'] = 0, bmak['pe_cnt'] = 0, bmak['te_cnt'] = 0
+},
+get_cf_date: function() {
 	return Date['now'] ? Date['now']() : +new Date
-}, sd_debug: function(a) {
+},
+sd_debug: function(a) {
 	if (!bmak['js_post']) {
 		var t = a;
 		'string' == typeof _sd_trace ? _sd_trace += t : _sd_trace = t
